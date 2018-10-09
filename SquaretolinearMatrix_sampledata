@@ -1,3 +1,4 @@
+###Authored by Rhiannon Peery
 awk '{print $1 ",ind1," $2}' SampleMatrix.txt > temp1.txt;
 awk '{print $1 ",ind2," $3}' SampleMatrix.txt > temp2.txt;
 awk '{print $1 ",ind3," $4}' SampleMatrix.txt > temp3.txt;
